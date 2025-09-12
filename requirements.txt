@@ -1,3 +1,6 @@
+setuptools
+wheel
+
 # Core dependencies
 flask==2.3.3
 spotipy==2.23.0
