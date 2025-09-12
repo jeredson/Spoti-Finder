@@ -1,6 +1,5 @@
-setuptools
+setuptools>=65.0.0
 wheel
-
 # Core dependencies
 flask==2.3.3
 spotipy==2.23.0
@@ -34,4 +33,5 @@ librosa==0.10.1
 
 # Utilities
 requests==2.31.0
+
 python-dateutil==2.8.2
