@@ -1,10 +1,11 @@
 setuptools>=65.0.0
 wheel
 # Core dependencies
+numpy==1.26.4
+pandas==2.2.2
 flask==2.3.3
 spotipy==2.23.0
-pandas==2.0.3
-numpy==1.24.3
+gunicorn==22.0.0
 scikit-learn==1.3.0
 
 # Emotion detection
@@ -21,7 +22,6 @@ seaborn==0.12.2
 plotly==5.17.0
 
 # Web app
-gunicorn==21.2.0
 python-dotenv==1.0.0
 
 # Image processing
@@ -35,3 +35,4 @@ librosa==0.10.1
 requests==2.31.0
 
 python-dateutil==2.8.2
+
